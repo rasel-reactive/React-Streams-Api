@@ -1,0 +1,227 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Ayu Mirage",
+  "editor.fontFamily": "Fira Code",
+  "window.zoomLevel": 0,
+  "files.autoSave": "afterDelay",
+  "editor.fontSize": 15,
+  "editor.minimap.enabled": false,
+  "editor.fontFamily": "Fira Code",
+  "breadcrumbs.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.tabSize": 2,
+  // "editor.lineHeight": 25,
+  "editor.fontLigatures": true,
+
+  "files.associations": {
+    "*.jsx": "javascriptreact",
+    "*.js": "javascript"
+  },
+
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "editor.tokenColorCustomizations": {
+    // "comments": "#40f513c7"
+  },
+
+  "workbench.colorCustomizations": {
+    // TitleBar.........
+    // "titleBar.activeBackground": "#2f053f",
+    // "titleBar.activeForeground": "#BDBDBD",
+    // "titleBar.inactiveBackground": "#42424299",
+    // "titleBar.inactiveForeground": "#BDBDBD99",
+
+    // Tab.............
+    // "tab.activeBackground": "#83006281",
+    // "tab.activeForeground": "#FFFFFF",
+    // "tab.activeModifiedBorder": "#03A9F4",
+    // "tab.border": "#212121",
+    // "tab.inactiveBackground": "#212121",
+    // "tab.inactiveForeground": "#FFFFFF80",
+    // "tab.inactiveModifiedBorder": "#03A9F480",
+    // "tab.unfocusedActiveForeground": "#FFFFFF80",
+    // "tab.unfocusedActiveModifiedBorder": "#03A9F480",
+    // "tab.unfocusedInactiveForeground": "#FFFFFF40",
+    // "tab.unfocusedInactiveModifiedBorder": "#03A9F440",
+
+    // Editor
+    "editor.background": "#1f1f1f",
+    // "editor.background": "#202020",
+    // "editor.background": "#1a1919",
+
+    // activityBar Right Panel
+    "activityBar.background": "#1d1d1d",
+    // "activityBar.dropBackground": "#FFFFFF1F",
+    // "activityBar.foreground": "#FFFFFF",
+    // "activityBar.inactiveForeground": "#FFFFFF99",
+    // "activityBarBadge.background": "#2196F3",
+    // "activityBarBadge.foreground": "#FFFFFF",
+
+    // Down bar after Tab
+    // "breadcrumb.background": "#201f1f",
+    // "breadcrumb.focusForeground": "#43a01e",
+    // "breadcrumb.foreground": "#BDBDBD",
+    // "breadcrumbPicker.background": "#212121",
+    // "breadcrumb.activeSelectionForeground": "#e01a1a",
+    // "editor.inactiveSelectionBackground": "#55264d",
+
+    // EditorGutter
+    // "editorGutter.background": "#191a1a",
+
+    // MenuBar..............
+    // "menu.background": "#212121",
+    // "menu.foreground": "#BDBDBD",
+    // "menu.selectionBackground": "#3F51B5",
+    // "menu.selectionForeground": "#FFFFFF",
+    // "menu.separatorBackground": "#9E9E9E",
+    // "menubar.selectionBackground": "#FFFFFF1A",
+    // "menubar.selectionForeground": "#BDBDBD",
+
+    //terminal..........(Panel)
+    // "panel.background": "#141414",
+    // "panel.border": "#ec0a8eb4",
+    // "panel.dropBackground": "#FFFFFF1F",
+    // "panelTitle.activeBorder": "#607D8B59",
+    // "panelTitle.activeForeground": "#EEEEEE",
+    // "panelTitle.inactiveForeground": "#EEEEEE99",
+
+    // SideBar ...........
+    "sideBar.background": "#1b1b1b",
+    "sideBar.foreground": "#bbbbbb",
+    // "sideBar.dropBackground": "#FFFFFF1F",
+    // "sideBarSectionHeader.background": "#0ee60e33",
+    "sideBarTitle.foreground": "#ffe601",
+
+    // ScrollBar..........
+    // "scrollbar.shadow": "#000000",
+    // "scrollbarSlider.activeBackground": "#ee070794",
+    // "scrollbarSlider.background": "#75757566",
+    // "scrollbarSlider.hoverBackground": "#757575B3",
+
+    // Bottom Status Bar
+
+
+    // "statusBar.background": "#520658c0",
+    // "statusBar.foreground": "#FFFFFF",
+    // "statusBar.noFolderBackground": "#673AB7",
+    // "statusBar.noFolderForeground": "#FFFFFF",
+    // "statusBarItem.activeBackground": "#FFFFFF2E",
+    // "statusBarItem.hoverBackground": "#FFFFFF1F",
+    // "statusBarItem.prominentBackground": "#00000080",
+    // "statusBarItem.prominentForeground": "#FFFFFF",
+    // "statusBarItem.prominentHoverBackground": "#0000004D",
+    // "statusBarItem.remoteBackground": "#8BC34A",
+    // "statusBarItem.remoteForeground": "#FFFFFF",
+
+  },
+
+
+  // For HighLight
+
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": [
+    "DEBUG:",
+    "REVIEW:",
+    "....:",
+    {
+      "text": ".....:",
+      "color": "#f8e804",
+      "backgroundColor": "#b82121",
+      "overviewRulerColor": "grey",
+      "isWholeLine": true
+    },
+    {
+      "text": "...:",
+      "color": "#eceaea",
+      "backgroundColor": "#08179c",
+      "isWholeLine": true,
+      "font-style": "none"
+    },
+    {
+      "text": "..:",
+      "color": "#74f4f8",
+      "border": "none",
+      "backgroundColor": "#8500ad",
+      "isWholeLine": true
+      //other styling properties goes here ...
+    },
+    {
+      "text": ".:",
+      "color": "#eeede2",
+      "border": "none",
+      "backgroundColor": "#074eb9",
+      "isWholeLine": true
+      //other styling properties goes here ...
+    },
+    {
+      "text": "__:",
+      "color": "#cbf804",
+      "backgroundColor": "#88254b",
+      "overviewRulerColor": "grey",
+      "isWholeLine": true
+    },
+    {
+      "text": "NOTE:",
+      "color": "#eeede2",
+      "backgroundColor": "#b82121",
+      "overviewRulerColor": "grey",
+      "isWholeLine": true
+    },
+    {
+      "text": ":::",
+      "color": "#eeede2",
+      "backgroundColor": "#984d6f",
+      "overviewRulerColor": "grey",
+      "isWholeLine": true
+    }
+  ],
+  //highlight `TODO:`,`FIXME:` or content between parentheses
+  "todohighlight.defaultStyle": {
+    "color": "#cbf804",
+    "backgroundColor": "#b60f4f",
+    "overviewRulerColor": "#7c1414",
+    "cursor": "pointer",
+    "border": "none",
+    "borderRadius": "2px",
+    "isWholeLine": true
+    //other styling properties goes here ...
+  },
+  "todohighlight.include": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.html",
+    "**/*.php",
+    "**/*.css",
+    "**/*.scss"
+  ],
+  "todohighlight.exclude": [
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/.vscode/**",
+    "**/.github/**",
+    "**/_output/**",
+    "**/*.min.*",
+    "**/*.map",
+    "**/.next/**"
+  ],
+  "todohighlight.maxFilesForSearch": 5120,
+  "todohighlight.toggleURI": false,
+  
+}

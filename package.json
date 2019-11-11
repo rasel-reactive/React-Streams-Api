@@ -1,0 +1,21 @@
+{
+  "name": "mongo-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@hapi/joi": "^15.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "server": "nodemon app.js",
+    "db": "mongod",
+    "start": "concurrently \"npm run server\" \" npm run db\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
